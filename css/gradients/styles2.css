@@ -1,0 +1,39 @@
+.box{
+    border:1px solid black;
+    height:200px;
+    width:150px;
+    background-image: linear-gradient(red,blue);
+    background-image: linear-gradient(to right,red,blue);
+    background-image: linear-gradient(to left bottom,rgb(229, 190, 190),rgb(131, 131, 235),rgb(167, 242, 167));
+    background-image: linear-gradient(rgba(255,0,0,0),rgba(0,0,255,1));
+
+
+}
+.mydiv{
+    border:1px solid black;
+    margin:10px;
+  
+    height:300px;
+    width:250px;
+    background-image:radial-gradient(circle,red,blue,yellow);
+
+}
+.mydiv2{
+    border:1px solid black;
+    height:200px;
+    width:200px;
+    background-image:conic-gradient(red,blue,green);
+
+
+    /* specified angle */
+
+    background-image:conic-gradient(red 45deg,blue 135deg,black 180deg) ;
+    border-radius: 100%;
+
+    /* creating pie chart */
+
+    background-image:conic-gradient(red 0deg, red 45deg,blue 45deg, blue 135deg,brown 135deg, brown 180deg)  ;
+
+    /* repeating conic Gradients */
+    background-image:repeating-conic-gradient(red 10%,blue 20%);
+}

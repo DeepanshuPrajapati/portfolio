@@ -1,0 +1,48 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+
+}
+
+.wrapper{
+    background-color:antiquewhite;
+    height:100vh;
+   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.container{
+    display:flex;
+    background-color:white;
+    border-radius: 10px;
+    margin: 1em 2em;
+    height:50%;
+    max-width: 600px;
+    
+    
+
+
+    
+}
+#mugdesc{
+    
+    text-align: left;
+   margin: 1.5em 2em;
+
+
+}
+.img{
+    display: block;
+    width: 280px;
+    height: 100%;
+    border-radius: 10px 0 0 10px;
+   
+
+    
+    
+
+}

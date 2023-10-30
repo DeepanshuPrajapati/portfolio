@@ -1,0 +1,24 @@
+.div{
+     width:150px;
+    height:150px;
+    
+     background-color:aqua;
+     border:1px solid black;
+     display:inline-block;
+    
+}
+#box2{
+    position:relative;
+    top:20px;
+    left:30px;
+}
+#box1{
+    position:fixed;
+}
+.wrapper{
+    background-color: yellow;
+    height:1000px;
+    width:100vw;
+    border-image: url(https://www.w3schools.com/css/tryit.asp?filename=trycss3_border-image2);
+
+}
